@@ -538,7 +538,6 @@ function renderReactApp({
             <Logo css={{marginRight: '.5rem'}} strokeWidth={0.8} />
             <div css={{display: 'flex', flexDirection: 'column'}}>
               <h1 css={{fontSize: 16, margin: 0}}>{projectTitle}</h1>
-              <span css={{fontSize: 14, opacity: '.8'}}>Epic React</span>
             </div>
           </Link>
         </div>
@@ -667,12 +666,7 @@ function renderReactApp({
             justifyContent: 'center',
           })}
         >
-          <Logo
-            size={120}
-            color={theme.skyDark}
-            strokeWidth={0.7}
-            css={mq({opacity: 0.5, marginTop: ['3rem', 0]})}
-          />
+          <Logo size={120} css={{marginTop: '3rem'}} />
           <h1
             css={mq({
               textAlign: 'center',
